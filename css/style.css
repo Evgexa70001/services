@@ -631,7 +631,7 @@ h6 {
 }
 
 .recom__item:hover::before {
-  content: "Модели " attr(data-name);
+  content: "Модели " attr(data-name) "\203A";
   background-color: rgba(255, 0, 92, 0.7);
 }
 
