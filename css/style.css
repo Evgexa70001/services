@@ -631,28 +631,8 @@ h6 {
 }
 
 .recom__item:hover::before {
-  content: "Модели " attr(data-name) "\203A";
+  content: "Модели " attr(data-name) " \203A";
   background-color: rgba(255, 0, 92, 0.7);
-}
-
-.recom__item::after {
- display: flex;
- content: "";
- font-weight: 700;
- font-size: 20px;
- position: absolute;
- top: 0;
- right: 0;
- bottom: 0;
- left:0;
- align-items: center;
- justify-content: center;
- color: white;
- z-index: 2;
-}
-
-.recom__item:hover::after {
- content: "\203A";
 }
 
 .recom__item img {
