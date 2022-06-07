@@ -635,6 +635,21 @@ h6 {
   background-color: rgba(255, 0, 92, 0.7);
 }
 
+.recom__item::after {
+ display: flex;
+ content: "";
+ font-weight: 700;
+ font-size: 20px;
+ position: absolute;
+ top: 0;
+ right: 0;
+ align-items: center;
+}
+
+.recom__item:hover::after {
+ content: "\203A";
+}
+
 .recom__item img {
   position: absolute;
   top: 50%;
